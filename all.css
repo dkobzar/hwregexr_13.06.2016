@@ -1,0 +1,56 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+* {max-height: 1000000px;}
+body{
+	margin:0;
+	font:12px/15px Arial, Helvetica, sans-serif;
+	color:#000;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust: none;
+}
+img{
+	border-style:none;
+	vertical-align:top;
+}
+a{
+	color:#000;
+	text-decoration:underline;
+}
+a:hover{text-decoration:none;}
+a:active {background-color: transparent;}
+input, textarea, select{
+	font:100% Arial, Helvetica, sans-serif;
+	vertical-align:middle;
+	color:#1e1b1b;
+}
+header, footer, article, section, hgroup, nav, figure, aside { display: block; }
+figure {
+	margin:0;
+	padding:0;
+}
+form, fieldset{
+	margin:0;
+	padding:0;
+	border-style:none;
+}
+input[type=submit],
+input[type=text],
+input[type=password],
+input[type=file],
+textarea{-webkit-appearance:none;}
+textarea,
+input[type=submit],
+input[type=text]{-webkit-border-radius:0;}
+input[type=image],
+button{
+	padding:0;
+	border:none;
+}
+input[type="submit"]::-moz-focus-inner{border:0}
+input[type="submit"]{cursor:pointer;}
+
